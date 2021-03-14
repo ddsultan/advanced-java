@@ -1,3 +1,13 @@
+## Running Features
+- Good practice
+```sh
+./gradlew cucumber -Dcucumber.filter.tags="@good"
+```
+- Bad practice (for comparison or for context)
+```sh
+./gradlew cucumber -Dcucumber.filter.tags="@bad"
+```
+## Notes
 ### Check java (home) info:
 
 - `echo $JAVA_HOME`
