@@ -22,4 +22,8 @@ task cucumber(type: Test) {
     group = "verification"
     include "**/*CucumberIT*"
     reports.html.enabled = false
+    testLogging {
+        showStandardStreams = true
+    }
+    systemProperties System.properties
 }
